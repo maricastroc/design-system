@@ -25,3 +25,8 @@ export const WithFallback: StoryObj<AvatarProps> = {
     src: undefined,
   },
 }
+
+// atualizando design-system:
+// npm run changeset
+// npm run version-packages
+// git add / git commit / git push origin main
