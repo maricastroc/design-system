@@ -31,5 +31,5 @@ jobs:
           publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: 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
-          TURBO_TOKEN: XVWeIjne1qd6KJCFWGcQ9s6V
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
